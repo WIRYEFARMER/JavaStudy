@@ -16,7 +16,7 @@ public class MethodMain01 {
 		int total = prnstar(cnt, ""); // >>prnstar 메소드 int num이란 변수에 입력됨.
 		System.out.println("HELLO");
 		System.out.println("자리수의 합 : " + total);
-		prnstar(5, ""); // >>prnstar메소드에 int num으로 선언 되어있으므로 괄호안엔 int 값만 넣을 수 있음
+		prnstar(5, ""); //	 >>	prnstar메소드에 int num으로 선언 되어있으므로 괄호안엔 int 값만 넣을 수 있음
 		System.out.println("HI");
 		prnstar(cnt, "abc");
 		System.out.println("GOODBYE");
