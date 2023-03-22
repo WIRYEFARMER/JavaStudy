@@ -44,7 +44,7 @@ public class StringMain02 {
 			}
 		}
 
-		System.out.println("<홍씨 성을 가진 사람을 검색 : ");
+		System.out.println("<홍씨 성을 가진 사람을 검색 : >");
 		for (String name : names) {
 			if (name.startsWith("홍")) {
 				System.out.println(name);

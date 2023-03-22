@@ -18,6 +18,7 @@ public class StringMain03 {
 		
 		ch = 'l';
 		System.out.println("indexOf()" + ch + "위치 :  " + str.indexOf(ch));
+		System.out.println("indexOf()" + ch + "위치 :  " + str.indexOf(ch,3));
 		System.out.println("lastindexOf()" + ch + "위치 :  " + str.lastIndexOf(ch));
 	}
 
