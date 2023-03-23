@@ -9,19 +9,20 @@ public class ScannerUtil {
 
 	
 	Scanner sc;
-	ScannerUtil() {
+	public ScannerUtil() {
 		sc = new Scanner(System.in);
 	}
-	char nextChar(String msg) {
+	public char nextChar(String msg) {
 		System.out.println(msg);
 		return sc.nextLine().charAt(0);
 	}
-	int nextInt(String msg) {
+	public int nextInt(String msg) {
 		System.out.println(msg);
 		int num=sc.nextInt();
+		sc.nextLine();		//int float double등을 입력 받은 후 버퍼를 비우기 위하여 nextLine추가함
 		return num;
 	}
-	String nextString(String msg) {
+	public String nextString(String msg) {
 		System.out.print(msg);
 		String str = sc.nextLine();
 		return str;
